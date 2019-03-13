@@ -1,0 +1,14 @@
+{
+  "name": "typescript-json-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Loughry <miclo@microsoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "repro": "tsc -b ./src"
+  }
+}

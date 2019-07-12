@@ -1,0 +1,11 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "dependencies": {
+    "strings": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.0-dev.20190712"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "composite": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "references": [
+    { "path": "./packages/strings" },
+    { "path": "./packages/main" }
+  ]
+}

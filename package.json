@@ -1,14 +1,14 @@
 {
-  "name": "typescript-json-project",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Michael Loughry <miclo@microsoft.com>",
-  "license": "MIT",
-  "dependencies": {
-    "typescript": "^3.3.3333"
-  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "tsc": "tsc",
-    "repro": "tsc -b ./src"
+    "clean": "rimraf packages/*/lib/",
+    "build": "tsc --build .",
+    "repro": "yarn run clean && yarn run build && yarn run build"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
   }
 }
